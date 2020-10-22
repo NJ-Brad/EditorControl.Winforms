@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Button.png" />
+    <None Remove="Images\Checkbox.png" />
+    <None Remove="Images\Dialog.png" />
+    <None Remove="Images\Droplist.png" />
+    <None Remove="Images\Groupbox.png" />
+    <None Remove="Images\Menu.png" />
+    <None Remove="Images\Radio.png" />
+    <None Remove="Images\Tab.png" />
+    <None Remove="Images\Table.png" />
+    <None Remove="Images\Textbox.png" />
+    <None Remove="Images\Tree.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Button.png" />
+    <EmbeddedResource Include="Images\Checkbox.png" />
+    <EmbeddedResource Include="Images\Dialog.png" />
+    <EmbeddedResource Include="Images\Droplist.png" />
+    <EmbeddedResource Include="Images\Groupbox.png" />
+    <EmbeddedResource Include="Images\Menu.png" />
+    <EmbeddedResource Include="Images\Radio.png" />
+    <EmbeddedResource Include="Images\Tab.png" />
+    <EmbeddedResource Include="Images\Table.png" />
+    <EmbeddedResource Include="Images\Textbox.png" />
+    <EmbeddedResource Include="Images\Tree.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Editor\Editor.csproj" />
+    <ProjectReference Include="..\Translators\Translators.csproj" />
+  </ItemGroup>
+
+</Project>
